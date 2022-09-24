@@ -1,0 +1,58 @@
+*{
+
+    margin: 0;
+}
+
+.contenedor{
+    background-image:url(fondo4.jpg);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(240, 240, 240);
+    text-shadow: 0.1em 0.1em 0.05em rgb(68, 0, 255);
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button{
+    margin-top: 50px;
+    font-size: xx-large;
+    padding: 0.70em;
+    background: rgb(152, 236, 222);
+    z-index: 100;
+    
+}
+
+#yesbtn{
+    transform: translate(-100%, 0);
+    text-shadow: 0.1em 0.1em 0.05em rgb(15, 255, 15);
+}
+
+#nobtn{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.1em 0.1em 0.05em rgb(112, 3, 3);
+}
+
+img{
+
+    margin-top: 200px;
+    height: 330px;
+    margin-left: -200px;
+    position: absolute;
+    z-index: 90;
+}
+
+.contenedor-si{
+
+    color: rgb(0, 0, 0);
+}
